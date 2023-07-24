@@ -32,13 +32,9 @@ function addItem(text) {
         list.removeChild(item);
     });
 
-    const newDiv = document.createElement("div");
-    newDiv.id = 'newDiv';
-    newDiv.appendChild(deleteButton);
-
     item.appendChild(checkbox);
     item.appendChild(taskText);
-    item.appendChild(newDiv);
+    item.appendChild(deleteButton);
     list.appendChild(item);
 }
 
