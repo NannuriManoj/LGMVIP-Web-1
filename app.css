@@ -71,20 +71,10 @@ input {
     background-color: rgb(152, 242, 140);
     transition: all 0.25s;
     border: none;
-    /* margin-left: 210px;*/
-    margin-right: 200px;
-
+    margin-left: 210px;
 }
 
 .deleteButton:hover {
     background-color: rgb(240, 89, 89);
     box-shadow: 2px 2px 2px gray;
-}
-
-#newDiv {
-    align-items: flex-end;
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: -27px;
 }
